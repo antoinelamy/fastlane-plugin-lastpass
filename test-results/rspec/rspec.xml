@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="rspec" tests="1" skipped="0" failures="1" errors="0" time="0.109333" timestamp="2018-06-18T18:55:42-04:00" hostname="Antoines-MacBook-Pro.local">
+<properties>
+<property name="seed" value="33066"/>
+</properties>
+<testcase classname="spec.lastpass_action_spec" name="Fastlane::Actions::LastpassAction#run prints a message" file="./spec/lastpass_action_spec.rb" time="0.108019"><failure message="undefined method `[]&apos; for nil:NilClass" type="NoMethodError">Failure/Error: unless params[:list]
+
+NoMethodError:
+  undefined method `[]&apos; for nil:NilClass
+./lib/fastlane/plugin/lastpass/actions/lastpass_action.rb:13:in `run&apos;
+./spec/lastpass_action_spec.rb:6:in `block (3 levels) in &lt;top (required)&gt;&apos;</failure></testcase>
+</testsuite>
